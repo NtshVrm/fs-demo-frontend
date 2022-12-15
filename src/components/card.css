@@ -1,0 +1,48 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  /* box-shadow: rgb(0 0 0 / 30%) 0px 19px 38px, rgb(0 0 0 / 22%) 0px 15px 12px; */
+  padding: 20px;
+  height: min-content;
+}
+
+.title {
+  font-size: 0.9rem;
+}
+
+.strike {
+  text-decoration: line-through;
+  color: red;
+}
+
+.green {
+  color: green;
+  font-weight: bold;
+}
+
+.card-button {
+  background-color: var(--primary-color);
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.remove-button {
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  color: var(--primary-color);
+  font-weight: bold;
+  border-radius: 2rem;
+  cursor: pointer;
+  border: 2px solid var(--primary-color);
+}
